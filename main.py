@@ -2,7 +2,6 @@ from sklearn.ensemble import IsolationForest
 from sklearn.datasets import load_iris
 import matplotlib.pyplot as plt
 
-# ref : https://edistywn.medium.com/catatan-belajar-anomaly-detection-menggunakan-algoritma-isolation-forest-4e4d13e61c3d
 
 data = load_iris(as_frame=True)
 X, y = data.data, data.target
